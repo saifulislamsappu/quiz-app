@@ -12,7 +12,7 @@ const Home = () => {
           <div className="top-content-section">
             <div className="user-section">
               <div className="user-icon">
-                  <img src="images/Person.png"/>
+                  <img src="images/Person.png" alt="quiz app"/>
               </div>
               <div className="user-info">
               <p className="user-bangla">ইশতিয়াক</p>
@@ -22,7 +22,7 @@ const Home = () => {
             <Link to='/reward'>
             <div className="rewars-icon">
             
-              <img src="images/Icon.svg" />
+              <img src="images/Icon.svg" alt="quiz app"/>
               
               <p>রিওয়ার্ড</p>
             </div>
@@ -34,7 +34,7 @@ const Home = () => {
                 <p className="reward-test-bold">রিওয়ার্ড পয়েন্ট ঃ ১৫০০</p>
             </div>
             <div className="reward-lg-icon">
-              <img src="images/fxemoji_trophy.svg"/>
+              <img src="images/fxemoji_trophy.svg" alt="quiz app"/>
             </div>
           </div>
         </div>
@@ -42,35 +42,35 @@ const Home = () => {
         <Carousel>
         <div className="slider-content-section">
             <div className="slider-image">
-                <img src="images/Reward1.png" />
+                <img src="images/Reward1.png" alt="quiz-app"/>
             </div>
             <div className="slider-content">
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="#">ক্লিক কর</a>
+                <a href="javascript:void(0)">ক্লিক কর</a>
             </div>
         </div>
         <div className="slider-content-section">
             <div className="slider-image">
-                <img src="images/Reward1.png" />
+                <img src="images/Reward1.png" alt="quiz-app"/>
             </div>
             <div className="slider-content">
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="#">ক্লিক কর</a>
+                <a href="javascript:void(0)">ক্লিক কর</a>
             </div>
         </div>
         <div className="slider-content-section">
             <div className="slider-image">
-                <img src="images/Reward1.png" />
+                <img src="images/Reward1.png" alt="quiz-app"/>
             </div>
             <div className="slider-content">
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="#">ক্লিক কর</a>
+                <a href="javascript:void(0)">ক্লিক কর</a>
             </div>
         </div>
     </Carousel>
@@ -78,42 +78,42 @@ const Home = () => {
     <div className="category-section">
           <div className="title-section">
             <h4 className="category-title">কুইজ ক্যাটাগরি পছন্দ করুন</h4>
-            <img src="images/right-arrow.svg"/>
+            <img src="images/right-arrow.svg" alt="quiz-app"/>
           </div>
           <div className="category-main-grid">
           <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/Medal1.png"/>
+                    <img src="images/Medal1.png" alt="quiz-app"/>
                     <p>খেলাধুলা</p>
                 </div>
             </div>
             <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/BooksandApple.png"/>
+                    <img src="images/BooksandApple.png" alt="quiz-app"/>
                     <p>তথ্যমূলক</p>
                 </div>
             </div>
             <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/AtomBulb.png"/>
+                    <img src="images/AtomBulb.png" alt="quiz-app"/>
                     <p>গুগলি</p>
                 </div>
             </div>
             <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/Globe.png"/>
+                    <img src="images/Globe.png" alt="quiz-app"/>
                     <p>আন্তর্জাতিক</p>
                 </div>
             </div>
             <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/bangladesh.png"/>
+                    <img src="images/bangladesh.png" alt="quiz-app"/>
                     <p>বাংলাদেশ</p>
                 </div>
             </div>
             <div className="category-card">
                 <div className="category-card-content">
-                    <img src="images/HighVoltage.png"/>
+                    <img src="images/HighVoltage.png" alt="quiz-app"/>
                     <p>এন্টারটেইন</p>
                 </div>
             </div>
@@ -124,23 +124,23 @@ const Home = () => {
       <div className="navigation-menu">
         <ul className="nav-item-ul">
           <li>
-            <a href="#">
-              <img src="images/Vector.svg"/>
+            <a href="javascript:void(0)">
+              <img src="images/Vector.svg" alt="quiz-app"/>
             </a>
           </li>
           <li>
-            <a href="#">
-            <img src="images/Icon (1).svg"/>
+            <a href="javascript:void(0)">
+            <img src="images/Icon (1).svg" alt="quiz-app"/>
             </a>
           </li>
           <li>
-            <a href="#">
-            <img src="images/Icon (2).svg"/>
+            <a href="javascript:void(0)">
+            <img src="images/Icon (2).svg" alt="quiz-app"/>
             </a>
           </li>
           <li>
-            <a href="#">
-            <img src="images/Icon (3).svg"/>
+            <a href="javascript:void(0)">
+            <img src="images/Icon (3).svg" alt="quiz-app"/>
             </a>
           </li>
         </ul>
