@@ -20,7 +20,7 @@ const Rewards = () => {
 
         <div className="reward-title">
         <Link to='/'>
-            <img src="images/Icon (4).svg"/>
+            <img src="images/Icon (4).svg" alt="quiz app"/>
           </Link>
           <p>পয়েন্ট রিওয়ার্ড</p>
         </div>
@@ -31,7 +31,7 @@ const Rewards = () => {
                 <p>ইশতিয়াক আহমেদ</p>
               </div>
               <div className="user-point">
-                <img src="images/prize_hires 1.svg"/>
+                <img src="images/prize_hires 1.svg" alt="quiz app"/>
                 <p>১২০০ পয়েন্ট</p>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Rewards = () => {
           <div className="point-reward-section">
             <div className="point-menu">
               <p className="point-title">পয়েন্ট রিওয়ার্ড</p>
-              <a href="#" className="all-show-link">সব দেখুন</a>
+              <a href="javascript:void(0)" className="all-show-link">সব দেখুন</a>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ const Rewards = () => {
             <div className="point-card">
               <div className="point-details">
                   <div className="point-icon">
-                    <img src="images/Reward Icon.png"/>
+                    <img src="images/Reward Icon.png" alt="quiz app"/>
                   </div>
                   <div className="point-info">
                     <p className="amout-text">মোবাইল রিচার্জ ২০ টাকা</p>
@@ -62,13 +62,13 @@ const Rewards = () => {
               </div>
               <div className="point-btn-section">
                 
-                <a href="#" onClick={handleModal} className="collect-btn">সংগ্রহ করুন </a>
+                <a href="javascript:void(0)" onClick={handleModal} className="collect-btn">সংগ্রহ করুন </a>
               </div>
             </div>
             <div className="point-card">
               <div className="point-details">
                   <div className="point-icon">
-                    <img src="images/Reward Icon (1).png"/>
+                    <img src="images/Reward Icon (1).png" alt="quiz app"/>
                   </div>
                   <div className="point-info">
                     <p className="amout-text">মোবাইল রিচার্জ ৫০ টাকা </p>
@@ -76,13 +76,13 @@ const Rewards = () => {
                   </div>
               </div>
               <div className="point-btn-section">
-                <a href="#" className="collect-btn">সংগ্রহ করুন </a>
+                <a href="javascript:void(0)" className="collect-btn">সংগ্রহ করুন </a>
               </div>
             </div>
             <div className="point-card">
               <div className="point-details">
                   <div className="point-icon">
-                    <img src="images/video-icon.png"/>
+                    <img src="images/video-icon.png" alt="quiz app"/>
                   </div>
                   <div className="point-info">
                     <p className="amout-text">যেভাবে কাজ করে</p>
@@ -90,37 +90,37 @@ const Rewards = () => {
                   </div>
               </div>
               <div className="point-btn-section">
-                <a href="#" className="collect-btn">ভিডিও দেখুন</a>
+                <a href="javascript:void(0)" className="collect-btn">ভিডিও দেখুন</a>
               </div>
             </div>
           </div>
           {modalOpen&&<Modal setModalOpen={setModalOpen}></Modal>}
           <div className="point-earn-list">
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>নিয়মিত কুইজার্স গেম খেলে পয়েন্ট অর্জন করুন</p>
             </div>
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>বিস্তারিত দেখতে আপনার কুইজার্স রিওয়ার্ড এ ট্যাপ করুন</p>
             </div>
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>পয়েন্ট ব্যবহার করে বিভিন্ন রিওয়ার্ড সংগ্রহ করুন এবং তার সুবিধা উপভোগ করুন </p>
             </div>
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>পরবর্তী রিওয়ার্ড লেভেল এবং দারুন সব অফার আনলক করতে বেশি বেশি পয়েন্ট অর্জন করুনন</p>
             </div>
           </div>
 
           <div className="point-earn-list">
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>নিয়মিত কুইজার্স গেম খেলে পয়েন্ট অর্জন করুন</p>
             </div>
             <div className="point-earn-grid">
-              <img src="images/bi_arrow-right-circle-fill.svg"/>
+              <img src="images/bi_arrow-right-circle-fill.svg" alt="quiz app"/>
               <p>বিস্তারিত দেখতে আপনার কুইজার্স রিওয়ার্ড এ ট্যাপ করুন</p>
             </div>
           </div>
