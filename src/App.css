@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;900&display=swap');
+body{
+  margin: 0;
+}
+p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.App {
+  width: 375px;
+  margin: auto;
+  /* padding: 0 20px; */
+  background: #F5F5F5;
+}
+.banner{
+  background-image: url(../public/images/banner.png);
+  height: 192px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-content-section{
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+}
+.user-section{
+  display: flex;
+  gap: 15px;
+}
+.user-bangla{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F2F2F2;
+}
+.user-en{
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #F2F2F2;
+  margin-top: -5px;
+}
+.rewars-icon{
+  width: 95px;
+  height: 29px;
+  left: 256px;
+  top: 40px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: #C7D3F3;
+  border: 4px solid #E9EFFF;
+  border-radius: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+.rewars-icon p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #0C092A;
+  margin-top: 3px;
+  text-decoration: none;
+}
+.reward-card{
+  width: 327px;
+  height: 96px;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(15, 13, 35, 0.04);
+  border-radius: 16px;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+.reward-test-normal{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 20px;
+  color: #666666;
+  opacity: 0.8;
+}
+.reward-test-bold{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #2C2C2C;
+}
+.grid-space{
+  padding: 0 24px;
+}
+/* slider start*/
+.thumbs-wrapper{
+  display: none;
+}
+.carousel.carousel-slider .control-arrow{
+  display: none;
+}
+.carousel-status{
+  display: none;
+}
+.carousel .slide img{
+  width: auto !important;
+}
+.slider-content-section{
+  display: flex;
+}
+.carousel-root{
+  margin-top: 17px;
+}
+.carousel.carousel-slider{
+  height: 190px;
+}
+.slider-content h4{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 30px;
+  color: #4C67AD;
+  text-align: left;
+  margin-bottom: 0;
+  margin-top: 42px;
+}
+.slider-content p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  text-align: right;
+  margin-bottom: 8px;
+}
+.slider-content a{
+  width: 81px;
+  height: 26px;
+  background: #6A5AE0;
+  border-radius: 20px;
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: center;
+  text-decoration: none;
+  float: right;
+}
+.slider-image{
+  width: 179px;
+}
+.carousel .slide img{
+  margin-left: -6px;
+}
+.carousel .control-dots .dot{
+  background: #D9D9D9 !important;
+  width: 6px !important;
+  height: 6px !important;
+  transition: none !important;
+  box-shadow: none !important;
+  margin: 0 3px !important;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover{
+  background: #4C67AD !important;
+}
+/* slider end*/
+
+/* category section satrt */
+.category-section{
+  padding-bottom: 38px;
+}
+.title-section{
+  display: flex;
+  justify-content: space-between;
+}
+.title-section img{
+  margin-top: -18px;
+}
+.category-title{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0C092A;
+  margin-top: 8px;
+}
+.category-main-grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-between;
+}
+.category-card{
+  width: 92px;
+  height: 85px;
+  background: #F2F7FF;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category-card-content{
+  text-align: center;
+}
+.category-card-content img{
+  height: 35px;
+  margin-bottom: 3px;
+}
+.category-card-content p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #636469;
+}
+/* category section end */
+
+/* nav start */
+.navigation-menu{
+  height: 72px;
+  background: #FFFFFF;
+  box-shadow: 0px -10px 24px rgb(15 13 35 / 6%);
+  position: fixed;
+  width: 375px;
+}
+.nav-item-ul{
+  list-style: none;
+  display: flex;
+  gap: 75px;
+  padding-left: 30px;
+}
+/* nav end */
+
+
+
+/* rewards start*/
+.reward-title{
+  background: #F9FCFF;
+  display: flex;
+  height: 67px;
+  align-items: center;
+  gap: 18px;
+  padding: 0 24px;
+}
+.reward-title p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+}
+.reward-details-section{
+  height: 133px;
+  margin: auto;
+  background: linear-gradient(180deg, #1B75BB 0%, #205680 100%);
+  border-radius: 16px;
+  padding: 24px;
+}
+.reward-user-info{
+  display: flex;
+  justify-content: space-between;
+}
+.user-point{
+  display: flex;
+  gap: 6px;
+}
+.user-status{
+  margin-top: 30px;
+}
+.user-name p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.user-point p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.status-title{
+  font-family: 'Noto Serif Bengali';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  justify-content: center;
+}
+.bar{
+  background: #FFFFFF;
+  border-radius: 41px;
+  height: 7px;
+  margin-top: 5px;
+}
+.info-text{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  text-align: center;
+  color: #FFFFFF;
+  width: 248px;
+  margin: auto;
+  margin-top: 10px;
+}
+.point-menu{
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.point-title{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2C2C2C;
+}
+.all-show-link{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2C2C2C;
+  text-decoration: none;
+}
+.point-card{
+  display: flex;
+  justify-content: space-between;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgb(15 13 35 / 4%);
+  border-radius: 16px;
+  height: 85px;
+  align-items: center;
+  padding-left: 17px;
+  padding-right: 10px;
+  margin-bottom: 21px;
+}
+.point-details{
+  display: flex;
+  gap: 13px;
+}
+.amout-text{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #2C2C2C;
+}
+.point-amount{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666666;
+  opacity: 0.55;
+}
+.point-icon{
+  display: flex;
+}
+.collect-btn{
+  width: 88px;
+  height: 35px;
+  background: #4C67AD;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.point-earn-list{
+  margin-top: 30px;
+  background: #FFFFFF;
+  box-shadow: 10px 24px 54px rgba(15, 13, 35, 0.04);
+}
+.point-earn-grid{
+  display: flex;
+  height: 58px;
+  align-items: center;
+  padding-left: 20PX;
+  padding-right: 5px;
+  gap: 10px;
+  border-bottom: 1px solid #EFEFEF;
+}
+.point-earn-grid:last-child{
+  border-bottom: none;
+}
+.point-earn-grid p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #2E3E5C;
+}
+.pb-30{
+  padding-bottom: 30px;
+}
+/* rewards end */
+
+/* modal start */
+.wrapper{
+  background: rgba(0, 0, 0, 0.65);
+  bottom: 0;
+  left: 0;
+  overflow: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.modal{
+    width: 375px;
+    height: 347px;
+    position: absolute;
+    left: 0;
+    background: #FFFFFF;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    z-index: 1;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    bottom: 0;
+}
+.modal__content{
+  text-align: center;
+  position: relative;
+}
+.modal__content h3{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #000000;
+}
+.close{
+  background: transparent;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 88%;
+    height: 259px;
+    color: transparent;
+}
+.modal__content p{
+  font-family: 'Tatsam Bengali Rnd';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  color: #4F4F4F;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.collect-btn:active{
+  background-color: #E0E0E0;
+}
+.top-layout{
+  background: #fff;
+  width: 67px;
+  z-index: 19;
+  position: absolute;
+  top: -60px;
+  height: 20px;
+  left: 44%;
+  border-radius: 50%;
+}
+/* modal end */
+@media (max-width: 359px){
+  .category-card{
+    width: 84px;
+  }
+}
+@media (max-width: 370px){
+  .slider-content h4{
+    font-size: 21px;
+  }
+  .category-main-grid{
+    gap: 18px;
+  }
+}
+@media (max-width: 375px){
+  .navigation-menu{
+    bottom: 0;
+  }
+  .category-section {
+    padding-bottom: 98px;
+}
+}
+@media (max-width: 480px){
+  .App {
+    width: 100%;
+    margin: auto;
+    /* padding: 0 20px; */
+  }
+  .navigation-menu{
+    width: 100%;
+  }
+  .modal{
+    width: 100%;
+  }
+}
+@media (min-width: 1200px){
+  .navigation-menu {
+    width: 100%;
+    left: 0;
+  }
+  .navigation-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: -15px;
+}
+.carousel-root {
+  margin-top: 45px;
+}
+.carousel.carousel-slider {
+  height: 195px;
+}
+.category-section {
+  padding-bottom: 70px;
+}
+}
