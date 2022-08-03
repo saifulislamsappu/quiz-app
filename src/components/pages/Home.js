@@ -48,7 +48,7 @@ const Home = () => {
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="javascript:void(0)">ক্লিক কর</a>
+                <Link to='/reward'>ক্লিক কর</Link>
             </div>
         </div>
         <div className="slider-content-section">
@@ -59,7 +59,7 @@ const Home = () => {
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="javascript:void(0)">ক্লিক কর</a>
+                <Link to='/reward'>ক্লিক কর</Link>
             </div>
         </div>
         <div className="slider-content-section">
@@ -70,7 +70,7 @@ const Home = () => {
                 <h4>কুইজার্স রিওয়ার্ড</h4>
                 <p>অর্জন করে লুফে নাও দারুন সব
                 আকর্ষণীয় অফার</p>
-                <a href="javascript:void(0)">ক্লিক কর</a>
+                <Link to='/reward'>ক্লিক কর</Link>
             </div>
         </div>
     </Carousel>
@@ -124,24 +124,24 @@ const Home = () => {
       <div className="navigation-menu">
         <ul className="nav-item-ul">
           <li>
-            <a href="javascript:void(0)">
+          <Link to='/'>
               <img src="images/Vector.svg" alt="quiz-app"/>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="javascript:void(0)">
+          <Link to='/reward'>
             <img src="images/Icon (1).svg" alt="quiz-app"/>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="javascript:void(0)">
+          <Link to='/reward'>
             <img src="images/Icon (2).svg" alt="quiz-app"/>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="javascript:void(0)">
+          <Link to='/reward'>
             <img src="images/Icon (3).svg" alt="quiz-app"/>
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

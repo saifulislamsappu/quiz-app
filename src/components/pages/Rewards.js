@@ -45,7 +45,7 @@ const Rewards = () => {
           <div className="point-reward-section">
             <div className="point-menu">
               <p className="point-title">পয়েন্ট রিওয়ার্ড</p>
-              <a href="javascript:void(0)" className="all-show-link">সব দেখুন</a>
+              <Link to='/reward' className="all-show-link">সব দেখুন</Link>
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const Rewards = () => {
               </div>
               <div className="point-btn-section">
                 
-                <a href="javascript:void(0)" onClick={handleModal} className="collect-btn">সংগ্রহ করুন </a>
+                <Link to='' onClick={handleModal} className="collect-btn">সংগ্রহ করুন </Link>
               </div>
             </div>
             <div className="point-card">
@@ -76,7 +76,7 @@ const Rewards = () => {
                   </div>
               </div>
               <div className="point-btn-section">
-                <a href="javascript:void(0)" className="collect-btn">সংগ্রহ করুন </a>
+                <Link to='' className="collect-btn">সংগ্রহ করুন </Link>
               </div>
             </div>
             <div className="point-card">
@@ -90,7 +90,7 @@ const Rewards = () => {
                   </div>
               </div>
               <div className="point-btn-section">
-                <a href="javascript:void(0)" className="collect-btn">ভিডিও দেখুন</a>
+                <Link to='' className="collect-btn">ভিডিও দেখুন</Link>
               </div>
             </div>
           </div>

@@ -101,6 +101,7 @@ a{
 }
 .grid-space{
   padding: 0 24px;
+  position: relative;
 }
 /* slider start*/
 .thumbs-wrapper{
@@ -240,6 +241,7 @@ a{
   box-shadow: 0px -10px 24px rgb(15 13 35 / 6%);
   position: fixed;
   width: 375px;
+  bottom: 0;
 }
 .nav-item-ul{
   list-style: none;
@@ -526,12 +528,18 @@ a{
     gap: 18px;
   }
 }
-@media (max-width: 375px){
+@media (max-width: 376px){
   .navigation-menu{
     bottom: 0;
   }
   .category-section {
     padding-bottom: 98px;
+}
+}
+@media (max-width: 415px){
+
+  .category-section {
+    padding-bottom: 125px;
 }
 }
 @media (max-width: 480px){
@@ -551,11 +559,11 @@ a{
   .navigation-menu {
     width: 100%;
     left: 0;
-  }
-  .navigation-menu {
     display: flex;
     justify-content: center;
     margin-left: -15px;
+    bottom: 0;
+    align-items: center;
 }
 .carousel-root {
   margin-top: 45px;
@@ -566,4 +574,41 @@ a{
 .category-section {
   padding-bottom: 70px;
 }
+}
+
+@media (min-width: 700px) and (max-width: 1100px){
+  .slider-content h4 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .category-section {
+    padding-bottom: 90px;
+}
+}
+@media (min-width: 1300px) and (max-width: 1600px){
+  .category-section {
+    padding-bottom: 90px !important;
+}
+.carousel-root {
+  margin-top: 25px;
+}
+.slider-content h4 {
+  font-size: 19px;
+}
+}
+
+@media (min-width: 1200px){
+  .modal{
+    left: 36%;
+  }
+}
+@media (min-width: 1400px){
+  .modal{
+    left: 38%;
+  }
+}
+@media (min-width: 1900px){
+  .modal{
+    left: 40.2%;
+  }
 }
