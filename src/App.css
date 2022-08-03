@@ -522,7 +522,7 @@ a{
 }
 @media (max-width: 370px){
   .slider-content h4{
-    font-size: 21px;
+    font-size: 17px;
   }
   .category-main-grid{
     gap: 18px;
